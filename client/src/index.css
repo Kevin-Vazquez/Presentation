@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+/* Presentation */
+.presentation {
+  width: 100%;
+  height: 100vh;
+  background: url("https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg") no-repeat center center/cover;
+  background-size: cover;
+}
+.presentation-nav {
+  width: 100%;
+  height: 70px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.presentation-nav h3 {
+  flex: 1;
+  margin-left: 40px;
+}
+.presentation-nav img {
+  width: 68px;
+  border-radius: 50%;
+}
+.presentation-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.presentation-nav ul li {
+  padding: 10px;
+}
+
+.footer {
+  background-color: #aaa;
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+}
+
+.footer button {
+  position: absolute;
+  right: 0;
+}
