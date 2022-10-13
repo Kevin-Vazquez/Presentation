@@ -22,22 +22,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #fff;
+  font-weight: bold;
+  position: fixed;
 }
 .presentation-nav h3 {
   flex: 1;
-  margin-left: 40px;
+  margin-left: 80px;
 }
 .presentation-nav img {
   width: 68px;
   border-radius: 50%;
-}
-.presentation-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-.presentation-nav ul li {
-  padding: 10px;
 }
 
 .footer {
