@@ -11,9 +11,40 @@
 /* Presentation */
 .presentation {
   width: 100%;
+}
+.presentation-header {
+  width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: url("https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg") no-repeat center center/cover;
-  background-size: cover;
+}
+.presentation-header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.info-to-scroll-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.info-to-scrollDown-p {
+  font-size: 30px;
+  text-align: center;
+}
+.info-to-scrollDown-icon {
+  font-weight: 900;
+  font-size: 30px;
+}
+.presentation h1, .presentation p {
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
 }
 .presentation-nav {
   width: 100%;
@@ -25,6 +56,7 @@
   color: #fff;
   font-weight: bold;
   position: fixed;
+  top: 0;
 }
 .presentation-nav h3 {
   flex: 1;
@@ -33,6 +65,11 @@
 .presentation-nav img {
   width: 68px;
   border-radius: 50%;
+}
+.presentation-nav .social-section a {
+  padding: 10px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .footer {

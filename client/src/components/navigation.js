@@ -5,10 +5,14 @@ import { BsGithub, BsInstagram } from "react-icons/bs"
 export default function Navigation() {
     return (
         <StrictMode>
-        <nav className="presentation-nav">
-            <img src="https://play-lh.googleusercontent.com/EnxJKkoXzxrmA0RA0gUie0K4gvbRLrQhpflyMzwSMvCfk2FA6o9sBLzfWtG5qLzIBIc"/>
-            <h3>Kevin Vazquez</h3>
-          </nav>
+            <nav className="presentation-nav">
+                <img src="https://play-lh.googleusercontent.com/EnxJKkoXzxrmA0RA0gUie0K4gvbRLrQhpflyMzwSMvCfk2FA6o9sBLzfWtG5qLzIBIc"/>
+                <h3>Kevin Vazquez</h3>
+                <span className="social-section">
+                    <a href="https://github.com/Kevin-Vazquez" target="_blank"><BsGithub/></a>
+                    <a href="https://www.instagram.com/kevin_vazquez_martinez/" target="_blank"><BsInstagram/></a>
+                </span>
+            </nav>
         </StrictMode>
     );
 }
